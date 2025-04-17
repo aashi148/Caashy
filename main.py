@@ -1,4 +1,5 @@
-from expense_tracker import log_expense, view_expenses
+from tracker_module import log_expense, view_expenses
+
 from budget_manager import check_budget, fetch_exchange_rates
 from utils import get_inflation, get_spending_tip
 

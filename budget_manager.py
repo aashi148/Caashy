@@ -10,7 +10,7 @@ BUDGET = {
 
 
 def check_budget():
-    from expense_tracker import pd, EXPENSE_FILE
+    from tracker_module import pd, EXPENSE_FILE
 
     if not os.path.exists(EXPENSE_FILE):
         print("No data to analyze.")
