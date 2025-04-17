@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Budget Tracker</title>
+    <title>Expense Tracker</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
     <div class="container">
-        <h1>💸 Expense Logger</h1>
+        <h1>Expense Logger</h1>
         <form action="/add_expense" method="POST">
             <label>Amount (₹):</label><br>
             <input type="number" name="amount" step="0.01" required><br><br>
